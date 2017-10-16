@@ -1,3 +1,62 @@
-h1 {
-	color: blue;
+body {
+    background-color: #cccccc;
+}
+
+header {
+    color: red;
+    font-size: 24px;
+}
+
+/* unvisited link */
+header a:link {
+    color: #ff6666;
+    font-weight: bold;
+}
+
+/* visited link */
+ header a:visited {
+    color: #ffcccc;
+}
+
+strong {
+    font-weight: bold;
+    color: #80ffaa;
+}
+
+#sunny {
+    color: #ffff66;
+}
+
+h1, h2 {
+    color: #ffc266;
+}
+
+.light {
+    color: #66e0ff;
+}
+
+.light a:visited {
+    font-weight: bold;
+    color: #66e0ff;
+}
+
+.dark {
+    color: #6666ff;
+}
+
+footer {
+    font-weight: bold;
+    color: purple;
+    font-size: 8px;
+}
+
+/* unvisited link */
+footer a:link {
+    color: #ffccff;
+}
+
+/* visited link */
+ footer a:visited {
+    font-weight: bold;
+    color: #ff80ff;
 }
